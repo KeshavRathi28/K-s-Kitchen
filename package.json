@@ -1,0 +1,46 @@
+{
+  "name": "k-s-kitchen",
+  "version": "1.0.0",
+  "description": "A Food Ordering app made using React & Tailwind",
+  "scripts": {
+    "test": "jest",
+    "watch-test": "jest --watch",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeshavRathi28/K-s-Kitchen.git"
+  },
+  "author": "Keshav Rathi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeshavRathi28/K-s-Kitchen/issues"
+  },
+  "homepage": "https://github.com/KeshavRathi28/K-s-Kitchen#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "babel-jest": "^29.4.3",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "jest": "^29.4.3",
+    "jest-environment-jsdom": "^29.4.3",
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.21",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.1"
+  },
+  "browserslist": [
+    "cover 99.9%"
+  ]
+}
