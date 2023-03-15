@@ -7,7 +7,7 @@ import Error from './Components/Error';
 import RestaurantPage from './Components/RestaurantPage';
 import Profile from './Components/Profile';
 import Shimmer from './Components/Shimmer';
-import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
+import { createHashRouter, RouterProvider, Outlet } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './Utils/store';
 import Cart from './Components/Cart';
@@ -26,7 +26,7 @@ const AppLayout = () => {
     );
 };
 
-const appRouter = createBrowserRouter([
+const appRouter = createHashRouter([
     {
         path: '/',
         element: <AppLayout />,
